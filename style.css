@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --color: #e0e0e0;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #08a2a4, #05a835);
+  background-repeat: no-repeat;
+  height: 3000px;
+}
+
+header {
+  text-align: center;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 100px auto;
+  width: 80%;
+  border-radius: 16px;
+  height: 300px;
+  box-shadow: 4px 4px 10px black;
+}
