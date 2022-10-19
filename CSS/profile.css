@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --color: #dbdada;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #08a2a4, #05a835);
+  background-repeat: no-repeat;
+}
+
+header {
+  text-align: center;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color);
+  box-shadow: 0 0 10px black;
+}
+
+.card {
+  margin: 150px auto;
+  width: 80%;
+  border-radius: 16px;
+  height: 300px;
+  box-shadow: 4px 4px 10px black;
+  background-color: var(--color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: var(--color);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border: 2px solid black;
+  box-shadow: 0 -2px 10px black;
+  position: fixed;
+  bottom: 0;
+}
+
+footer i {
+  margin: 16px;
+  padding: 5px;
+  width: 25%;
+  min-width: 90px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 16px;
+  box-shadow: 2px 2px 8px black;
+  cursor: pointer;
+}
+
+.fa-user:active {
+  background-color: black;
+}

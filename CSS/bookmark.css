@@ -36,7 +36,7 @@ header {
   align-items: center;
 }
 
-footer{
+footer {
   background-color: var(--color);
   display: flex;
   justify-content: space-around;
@@ -47,7 +47,7 @@ footer{
   bottom: 0;
 }
 
-footer i{
+footer i {
   margin: 16px;
   padding: 5px;
   width: 25%;
@@ -57,4 +57,8 @@ footer i{
   border-radius: 16px;
   box-shadow: 2px 2px 8px black;
   cursor: pointer;
+}
+
+.fa-user:active {
+  background-color: black;
 }
