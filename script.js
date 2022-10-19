@@ -7,3 +7,5 @@ home.addEventListener("mousedown", () => {
 home.addEventListener("mouseup", () => {
   home.style.backgroundColor = "";
 });
+
+console.log("hallo");
