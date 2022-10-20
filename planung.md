@@ -1,11 +1,9 @@
 # Planung
 
-To-Do:
+Leon: Registerkarte
+Justus: bookmarks (mit Bookmarkbildern)
+Simon: header footer
+Thomas: Profile Page
 
-- Klassen- und ID-Schema
-- Data-Js-Schema
-
-1. Homepage - Simon
-2. Bookmarks - Leon
-3. Profile - Justus
-4. CSS + Content - Thomas
+eine global Import CSS
+-> darin werden CSS von einzelnen Personen importiert
