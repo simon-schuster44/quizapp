@@ -23,6 +23,9 @@ header {
   align-items: center;
   background-color: var(--color);
   box-shadow: 0 0 10px black;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .card {
