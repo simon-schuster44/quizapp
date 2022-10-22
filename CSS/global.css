@@ -78,3 +78,8 @@ footer i:hover {
 footer i:active {
   transform: scale(0.9);
 }
+
+.fa-regular {
+  background-color: var(--color);
+  border-radius: 8px;
+}
