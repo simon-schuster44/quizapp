@@ -1,6 +1,7 @@
 /* bookmark switch picture */
 const buttonBookmark = document.querySelector('[data-js="bookmark"]');
 
+
 buttonBookmark.addEventListener('click', function() {
 
 if(buttonBookmark.classList.contains("fa-regular") == true) {
@@ -11,3 +12,6 @@ if(buttonBookmark.classList.contains("fa-regular") == true) {
     buttonBookmark.classList.add("fa-regular");
 }
 })
+
+
+
