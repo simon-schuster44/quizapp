@@ -18,22 +18,69 @@
     </header>
     <main>
       <!-- box bild + username -->
-      <section class="">
-        <h3>Max Doe</h3>
-      </section>
-      <!-- box about me -->
-      <section class="">
-        <h3>About me</h3>
-      </section>
-      <!-- box counter for created questions and bookmarks -->
-      <section class=""></section>
-      <!-- box settings (links) -->
-      <section class="">
-        <h5>Settings</h5>
-        <h5>Dark Mode</h5>
-      </section>
+      <div class="profile">
+        <section class="profile__head">
+          <div class="profile__picture">
+            <img
+              src="./assets/images/profile_picture.jpeg"
+              alt=""
+              class="profile__image"
+            />
+          </div>
+          <h2 class="profile__name__text">John Doe</h2>
+        </section>
+        <!-- box about me -->
+        <section class="profile__about">
+          <h3 class="profile__aboutmeheading">About me</h3>
+          <p class="profile__aboutmetext">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magni
+            ullam aperiam enim aliquam rerum modi ex harum, cum tenetur
+            architecto voluptates similique nobis impedit perferendis quis
+            dolore a voluptatum!
+          </p>
+        </section>
+        <!-- box counter for created questions and bookmarks -->
+        <section class="profile__counters">
+          <div class="counter__created">
+            <i class="fa-solid fa-circle-question fa-2x"></i>
+            <p class="counter__created__text">4</p>
+          </div>
+          <div class="counter__bookmarked">
+            <i class="fa-solid fa-bookmark fa-2x"></i>
+            <p class="counter__bookmark__text">25</p>
+          </div>
+        </section>
+        <!-- box settings (links) -->
+        <section class="profile__settings">
+          <div class="darkmode">
+            <h5>Dark Mode</h5>
+
+            <div class="wrapper">
+              <input type="checkbox" id="hide-checkbox" />
+              <label for="hide-checkbox" class="toggle">
+                <span class="toggle-button">
+                  <span class="crater crater-1"></span>
+                  <span class="crater crater-2"></span>
+                  <span class="crater crater-3"></span>
+                  <span class="crater crater-4"></span>
+                  <span class="crater crater-5"></span>
+                  <span class="crater crater-6"></span>
+                  <span class="crater crater-7"></span>
+                </span>
+                <span class="star star-1"></span>
+                <span class="star star-2"></span>
+                <span class="star star-3"></span>
+                <span class="star star-4"></span>
+                <span class="star star-5"></span>
+                <span class="star star-6"></span>
+                <span class="star star-7"></span>
+                <span class="star star-8"></span>
+              </label>
+            </div>
+          </div>
+        </section>
+      </div>
       <!-- box switches, e.g. dark mode -->
-      <section class=""></section>
     </main>
     <!-- links main, bookmarks, profile -->
     <footer>
