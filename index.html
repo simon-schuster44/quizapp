@@ -10,6 +10,7 @@
   />
     <link rel="stylesheet" href="./CSS/styles.css" />
     <script src="./script/bookmark.js" defer></script>
+    <script src="/script/questioncard.js" defer></script>
 
     <title>Stylesheet</title>
   </head>
@@ -20,8 +21,8 @@
     <main>
       <div class="card">
         <h2 class="question">Question</h2>
-        <button class="answer-button">Show Answer</button>
-        <h3 class="answer">Answer</h3>
+        <button class="answer-button" data-js="answer-button">Show Answer</button>
+        <h3 class="answer hide" data-js="answer">Answer</h3>
         <i class="fa-regular fa-bookmark fa-4x bookmark" data-js="bookmark"></i>
         <ul class="categories">
           <li class="categories__tag">#html</li>
