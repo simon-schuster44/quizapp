@@ -1,9 +1,25 @@
 # Planung
 
-Leon: Registerkarte
-Justus: bookmarks (mit Bookmarkbildern)
-Simon: header footer
-Thomas: Profile Page
+Database für Fragen als Array mit folgenden Object Keys:
 
-eine global Import CSS
--> darin werden CSS von einzelnen Personen importiert
+- nummer
+- question
+- answer
+- bookmarked (boolean)
+- tags
+
+---
+
+Funktion, die Fragen als bookmarked zu kennzeichnen
+
+- in der database ändern
+
+---
+
+Funktion, alle Fragen auf der Homepage anzuzeigen
+
+- vielleicht random?
+
+---
+
+Funktion, um auf der Bookmark-Seite nur die Fragen mit bookmarked = true anzuzeigen
