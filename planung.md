@@ -16,7 +16,7 @@ Funktion, die Fragen als bookmarked zu kennzeichnen
 
 ---
 
-Funktion, alle Fragen auf der Homepage anzuzeigen
+Funktion, alle Fragen auf der Homepage anzuzeigen und neue Karten zu erstellen
 
 - vielleicht random?
 
