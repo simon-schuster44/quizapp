@@ -23,3 +23,10 @@ Funktion, alle Fragen auf der Homepage anzuzeigen und neue Karten zu erstellen
 ---
 
 Funktion, um auf der Bookmark-Seite nur die Fragen mit bookmarked = true anzuzeigen
+
+---
+
+Eine neue Seite erstellen
+
+- mit Formular
+- JS zum hinzufügen einer neuen Karte in die Database
