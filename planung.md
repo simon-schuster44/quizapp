@@ -7,22 +7,8 @@ Database für Fragen als Array mit folgenden Object Keys:
 - answer
 - bookmarked (boolean)
 - tags
-
----
-
-Funktion, die Fragen als bookmarked zu kennzeichnen
-
-- in der database ändern
-
----
-
-Funktion, alle Fragen auf der Homepage anzuzeigen und neue Karten zu erstellen
-
-- vielleicht random?
-
----
-
-Funktion, um auf der Bookmark-Seite nur die Fragen mit bookmarked = true anzuzeigen
+  <br><br>
+- Funktionalität, dass Karten unter Formular angezeigt werden
 
 ---
 
@@ -30,3 +16,14 @@ Eine neue Seite erstellen
 
 - mit Formular
 - JS zum hinzufügen einer neuen Karte in die Database
+
+---
+
+Funktionalität
+
+- für Bookmark Icon
+- für Show Answer Button
+
+---
+
+Characters left counter im Formular
