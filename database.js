@@ -6,3 +6,7 @@ const cards = [
     isBookmarked: true,
   },
 ];
+
+const form = document.querySelector(".form");
+
+form.addEventListener("submit", (daten) => {});
