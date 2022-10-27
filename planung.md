@@ -1,16 +1,19 @@
 # Planung
 
+## Justus
+
 Database für Fragen als Array mit folgenden Object Keys:
 
 - nummer
 - question
 - answer
 - bookmarked (boolean)
-- tags
   <br><br>
 - Funktionalität, dass Karten unter Formular angezeigt werden
 
 ---
+
+## Simon
 
 Eine neue Seite erstellen
 
@@ -19,11 +22,15 @@ Eine neue Seite erstellen
 
 ---
 
+## Thomas
+
 Funktionalität
 
 - für Bookmark Icon
 - für Show Answer Button
 
 ---
+
+## LeonDerProfi
 
 Characters left counter im Formular
