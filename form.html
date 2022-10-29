@@ -28,7 +28,10 @@
           <textarea name="answer" id="answer" cols="30" rows="3"></textarea>
           <button type="submit" data-js="button">SUBMIT</button>
         </form>
-        <div class="overlay" data-js="overlay"><h1>Added Card!</h1></div>
+        <div class="overlay" data-js="overlay">
+          <h1>Added Card!</h1>
+          <i class="fa-solid fa-arrow-down fa-6x"></i>
+        </div>
       </div>
     </main>
     <footer>
@@ -38,7 +41,10 @@
       <div class="container" onclick="location.href='./bookmark.html'">
         <img src="/assets/images/bookmark-solid.svg" alt="" />
       </div>
-      <div class="container" onclick="location.href='./form.html'">
+      <div
+        class="container button__active"
+        onclick="location.href='./form.html'"
+      >
         <img src="/assets/images/plus-solid.svg" alt="" />
       </div>
       <div class="container" onclick="location.href='./profile.html'">

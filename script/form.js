@@ -13,7 +13,7 @@ function hideOverlay() {
   overlay.classList.remove("animate");
   inputQ.focus();
 }
-form.addEventListener("submit", async (event) => {
+form.addEventListener("submit", (event) => {
   event.preventDefault();
   const data = Object.fromEntries(new FormData(event.target));
   const newQuestion = Object.assign(
@@ -24,6 +24,7 @@ form.addEventListener("submit", async (event) => {
     { isBookmarked: false }
   );
   questionCards.push(newQuestion);
+  console.log(questionCards);
   showOverlay();
 
   for (const quest in questionCards) {
