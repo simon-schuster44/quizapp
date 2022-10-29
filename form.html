@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" onload="this.media='all'"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      onload="this.media='all'"
+    />
     <link rel="stylesheet" href="./CSS/styles.css" />
-    <script src="./script/bookmark.js" defer></script>
-    <script src="/script/questioncard.js" defer></script>
+    <script src="./script/form.js" defer></script>
 
     <title>Stylesheet</title>
   </head>
@@ -19,14 +19,37 @@
       <h1>QUIZAPP</h1>
     </header>
     <main>
-      <form action="">
-        
-      </form>
+      <div class="template">
+        <h2>New Question</h2>
+        <form data-js="form">
+          <label for="question">Question</label>
+          <textarea name="question" id="question" cols="30" rows="3"></textarea>
+          <label for="answer">Answer</label>
+          <textarea name="answer" id="answer" cols="30" rows="3"></textarea>
+          <button type="submit" data-js="button">SUBMIT</button>
+        </form>
+        <div class="overlay" data-js="overlay">
+          <h1>Added Card!</h1>
+          <i class="fa-solid fa-arrow-down fa-6x"></i>
+        </div>
+      </div>
     </main>
     <footer>
-      <i class="fa-solid fa-house fa-4x button__active" data-js="home" onclick="location.href='./index.html'"></i>
-      <i class="fa-solid fa-bookmark fa-4x" onclick="location.href='./bookmark.html'"></a></i>
-      <i class="fa-solid fa-user fa-4x" onclick="location.href='./profile.html'"></i>
+      <div class="container" onclick="location.href='./index.html'">
+        <img src="/assets/images/house-solid.svg" alt="" />
+      </div>
+      <div class="container" onclick="location.href='./bookmark.html'">
+        <img src="/assets/images/bookmark-solid.svg" alt="" />
+      </div>
+      <div
+        class="container button__active"
+        onclick="location.href='./form.html'"
+      >
+        <img src="/assets/images/plus-solid.svg" alt="" />
+      </div>
+      <div class="container" onclick="location.href='./profile.html'">
+        <img src="/assets/images/user-solid.svg" alt="" />
+      </div>
     </footer>
   </body>
 </html>
