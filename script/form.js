@@ -26,7 +26,9 @@ form.addEventListener("submit", (event) => {
   questionCards.push(newQuestion);
   console.log(questionCards);
   showOverlay();
-
+  //
+  //
+  //
   for (const quest in questionCards) {
     console.log(questionCards[quest].question);
     let card = document.createElement("div");

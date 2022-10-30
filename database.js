@@ -3,10 +3,6 @@ const cards = [
     number: 1,
     question: "",
     answer: "",
-    isBookmarked: true,
+    isBookmarked: false,
   },
 ];
-
-const form = document.querySelector(".form");
-
-form.addEventListener("submit", (daten) => {});
