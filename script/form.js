@@ -1,8 +1,10 @@
+import { cards } from "../database.js";
+import { addCards } from "../database.js";
+
 const overlay = document.querySelector('[data-js="overlay"]');
 const form = document.querySelector('[data-js="form"]');
-const button = document.querySelector('[data-js="button"]');
 const inputQ = document.querySelector("#question");
-const questionCards = [];
+const answerbuttons = document.querySelector('[data-js="answer-button"]');
 
 function showOverlay() {
   overlay.classList.add("animate");
@@ -11,29 +13,21 @@ function showOverlay() {
 
 function hideOverlay() {
   overlay.classList.remove("animate");
-  inputQ.focus();
+  //inputQ.focus();
 }
+addCards();
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const data = Object.fromEntries(new FormData(event.target));
   const newQuestion = Object.assign(
     {
-      number: questionCards.length,
+      number: cards.length,
     },
     data,
     { isBookmarked: false }
   );
-  questionCards.push(newQuestion);
-  console.log(questionCards);
+  cards.push(newQuestion);
+  form.reset();
+  addCards();
   showOverlay();
-  //
-  //
-  //
-  for (const quest in questionCards) {
-    console.log(questionCards[quest].question);
-    let card = document.createElement("div");
-    card.classList.add("card");
-    card.textContent = questionCards[quest].question;
-    document.body.appendChild(card);
-  }
 });

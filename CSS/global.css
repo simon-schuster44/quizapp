@@ -56,11 +56,11 @@ footer i {
   transition: 0.2s;
 }
 
-.container:hover {
+footer i:hover {
   box-shadow: 2px 2px 20px black;
 }
 
-.container:active {
+footer i:active {
   transform: scale(0.9);
 }
 
