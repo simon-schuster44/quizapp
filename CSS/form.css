@@ -2,7 +2,6 @@
   margin: 100px auto;
   width: 80%;
   border-radius: 16px;
-  height: 350px;
   box-shadow: 4px 4px 10px black;
   background-color: var(--color);
   display: flex;
@@ -12,7 +11,7 @@
 }
 
 .template h2 {
-  margin: 20px;
+  margin: 20px auto 10px auto;
 }
 .template h2::before,
 .template h2::after {
@@ -55,6 +54,10 @@
 .animate {
   opacity: 1;
   z-index: 2;
+}
+
+label {
+  margin: 10px;
 }
 
 textarea {
