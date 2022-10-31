@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="./CSS/styles.css" />
     <script type="module" src="./script/form.js" defer></script>
-    <script src="./script/characters.js" defer></script>
+    <script type="module" src="./script/characters.js" defer></script>
 
     <title>Stylesheet</title>
   </head>
@@ -31,6 +31,7 @@
             cols="30"
             rows="3"
             maxlength="150"
+            required
           ></textarea>
           <small class="question__characters-count"
             >(<span data-js="questionAmountLeft"></span> characters left)</small
@@ -43,6 +44,7 @@
             cols="30"
             rows="3"
             maxlength="150"
+            required
           ></textarea>
           <small class="answer__characters-count"
             >(<span data-js="answerAmountLeft"></span> characters left)</small
@@ -72,6 +74,7 @@
       <div class="container" onclick="location.href='./profile.html'">
         <img src="/assets/images/user-solid.svg" alt="" />
       </div> -->
+
       <i
         class="fa-solid fa-house fa-4x"
         data-js="home"
