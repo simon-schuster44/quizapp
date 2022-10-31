@@ -9,7 +9,7 @@ export const cards = [
     number: 2,
     question: "What is the color of a banana?",
     answer: "Yellow",
-    isBookmarked: false,
+    isBookmarked: true,
   },
   {
     number: 3,
