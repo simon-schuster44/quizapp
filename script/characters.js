@@ -1,11 +1,13 @@
 const questionElement = document.querySelector('[data-js="questionInput"]');
 const answerElement = document.querySelector('[data-js="answerInput"]');
-const questionAmountLeft = document.querySelector(
+export const questionAmountLeft = document.querySelector(
   '[data-js="questionAmountLeft"]'
 );
-const answerAmountLeft = document.querySelector('[data-js="answerAmountLeft"]');
-const questionMaxLength = questionElement.getAttribute("maxlength");
-const answerMaxLength = answerElement.getAttribute("maxlength");
+export const answerAmountLeft = document.querySelector(
+  '[data-js="answerAmountLeft"]'
+);
+export const questionMaxLength = questionElement.getAttribute("maxlength");
+export const answerMaxLength = answerElement.getAttribute("maxlength");
 
 const updateQuestionAmountLeft = (value) => {
   questionAmountLeft.innerText = value;
