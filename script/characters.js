@@ -1,5 +1,6 @@
 const questionElement = document.querySelector('[data-js="questionInput"]');
 const answerElement = document.querySelector('[data-js="answerInput"]');
+
 export const questionAmountLeft = document.querySelector(
   '[data-js="questionAmountLeft"]'
 );
